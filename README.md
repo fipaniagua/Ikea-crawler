@@ -9,6 +9,8 @@ Then write a .xlsx file with all the products information.
 2. Install [PIP](https://phoenixnap.com/kb/install-pip-windows)
 3. Install requirments. \
    `pip install requirementes -r requirementes.txt`
+4. download ChromeDriver from https://chromedriver.storage.googleapis.com/index.html?path=88.0.4324.96/   
+5. move ChromeDriver from downloads folder to the program folder
 
 ## Usage
 
