@@ -7,8 +7,8 @@ Then write a .xlsx file with all the products information.
 
 1. Install [Python](https://phoenixnap.com/kb/how-to-install-python-3-windows)
 2. Install [PIP](https://phoenixnap.com/kb/install-pip-windows)
-3. Install requirments \ 
-`pip install requirementes -r requirementes.txt`
+3. Install requirments. \
+   `pip install requirementes -r requirementes.txt`
 
 ## Usage
 
