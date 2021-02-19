@@ -46,8 +46,10 @@ if __name__ == "__main__":
     browser = webdriver.Chrome(executable_path = path_to_chromedriver)
     categories_info = load_categories("categoreis.xlsx")
     products_info = []
-    for sub_category in categories_info[:5]:
-        print(f"descargando de {sub_category[1]}")
+    i = 1
+    for sub_category in categories_info:
+        print(f"descargando de {sub_category[1]} ({i}/{len(categories_info)})")
         products_info += get_products_from_url(browser, sub_category[0], sub_category[1], sub_category[2])
+        i += 1
     save_info(products_info, "products_catalog.xlsx")
     browser.close()
